@@ -16,8 +16,11 @@
 A very simple tool written in Python to clean your Twitter profile.
 
 # How to use
-* Get a developer account on Twitter [Click here](https://developer.twitter.com/en/apply-for-access) 
-* Create a Twitter App
-* Copy your app credential to credential-sample.json
-* Rename `credential-sample.json` to `credential.json`
+* Get a developer account on Twitter [Click here](https://developer.twitter.com/en/apply-for-access) (May take up to 15 days) 
+* Create a Twitter App (Assuming you've got a developer account)
+* Clone this repository
+* Copy your app credential to `credentials-sample.json`
+* Rename `credentials-sample.json` to `credentials.json`
 * Run it `python3 twitter_cleaner.py`
+
+##### NOTE: You may have to run same operation more than once because Twitter doesn't seem to delete everything in one attempt.
